@@ -1,0 +1,1006 @@
+<div id="AHMSDEVE013" class="div-app" data-version="1.0">
+    <div class="global_message">
+    </div>
+    <!-- Subpage Default -->
+    <div id="ahmsdeve013" class="subpage subpage-default" data-path="Maintain SN Battery & Charger">
+        <!-- Filter Panel -->
+        <div class="row form-filter-panel" id="ahmsdeve013FilterPanel">
+            <div class="form-horizontal">
+                <div class="row">
+                    <div id="ahmsdeve013shpListDateFilter" class="col-sm-6 form-group large-font">
+                        <div class="col-sm-3">
+                            <label for="ahmsdeve013shpListDateFilter" class="control-label">Shipping List Date</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013shpListDateFrom" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013shpListDateTo" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="ahmsdeve013bstDateFilter" class="col-sm-6 form-group large-font">
+                        <div class="col-sm-3">
+                            <label for="ahmsdeve013bstDateFilter" class="control-label">BAST Date</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013bstDateFrom" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013bstDateTo" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="ahmsdeve013mdRecDateFilter" class="col-sm-6 form-group large-font">
+                        <div class="col-sm-3">
+                            <label for="ahmsdeve013mdRecDateFilter" class="control-label">MD Receive Date</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013mdRecDateFrom" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013mdRecDateTo" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="ahmsdeve013mdOutDateFilter" class="col-sm-6 form-group large-font">
+                        <div class="col-sm-3">
+                            <label for="ahmsdeve013mdOutDateFilter" class="control-label">MD Out Date</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013mdOutDateFrom" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013mdOutDateTo" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="ahmsdeve013dealRecDateFilter" class="col-sm-6 form-group large-font">
+                        <div class="col-sm-3">
+                            <label for="ahmsdeve013dealRecDateFilter" class="control-label">Dealer Receive Date</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013dealRecDateFrom" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group date">
+                                <input id="ahmsdeve013dealRecDateTo" type="text" class="form-control" autocomplete="off">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row filter-buttons" style="padding: 0 !important;">
+                <div class="form-group-button col-md-6">
+                    <button class="btn large-button bg-blue" onclick="ahmsdeve013SearchBtn(this);" id="ahmsdeve013p01search">
+                        <i class="glyphicon glyphicon-search fg-white"></i>
+                        Search</button>
+                    <button class="btn large-button bg-red" onclick="ahmsdeve013Reset(this);">
+                        <i class="glyphicon glyphicon-refresh fg-white"></i>
+                        Reset</button>
+                    <button class="btn large-button bg-green" onclick="ahmsdeve013ExportExcel(this);" id="ahmsdeve013p01ExportExcel">
+                        <i class="glyphicon glyphicon-download-alt fg-white"></i> 
+                        Export to Excel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Table -->
+        <!--data-response-handler="loadData"-->
+        <div id="table-container">
+            <style>
+                .eve013-minwidth90{
+                    min-width: 90px;
+                }
+                .eve013-minwidth125{
+                    min-width: 125px;
+                }
+                .eve013-minwidth135{
+                    min-width: 135px;
+                }
+                .eve013-minwidth250{
+                    min-width: 250px;
+                }
+                th{
+                    vertical-align: middle!important;
+                }
+            </style>
+            <table id="ahmsdeve013SearchTable" 
+                   data-method="post" 
+                   data-url="/jx05/ahmsvsdeve000-pst/rest/sd/eve013/monitoringaccev"
+                   data-content-type="application/json" 
+                   data-data-type="json" 
+                   data-query-params-type="limit"
+                   data-query-params="ahmsdeve013Presearch" 
+                   data-response-handler="loadData"
+                   data-side-pagination="server"
+                   data-pagination="true">
+                <thead>
+                    <tr>
+                        <th data-sortable="false" data-align="center">No</th>
+                        <th data-sortable="true" data-field="srnSort" data-align="center">Serial Number <br> Marker</th>
+                        <th data-sortable="true" data-field="acctypeSort" data-align="center">Battery/Charger <br> Category</th>
+                        <th data-sortable="true" data-field="receivedateSort" data-align="center" data-class="eve013-minwidth135">AHM Receive <br> Date</th>
+                        <th data-sortable="true" data-field="proddateSort" data-align="center" data-class="eve013-minwidth135">Production <br> Date</th>
+                        <th data-sortable="true" data-field="durationaccsSort" data-align="center">Duration Accs <br> EV</th>
+                        <th data-sortable="true" data-field="laststatusSort" data-align="center">Last Status</th>
+                        <th data-sortable="true" data-field="pkgsheetnumSort" data-align="center">Packing Sheet <br> Number</th>
+                        <th data-sortable="true" data-field="boxnumSort" data-align="center">Box Number</th>
+                        <th data-sortable="true" data-field="cartonnumSort" data-align="center">Carton Number</th>
+                        <th data-sortable="true" data-field="shplistSort" data-align="center">Shipping List</th>
+                        <th data-sortable="true" data-field="partnumSort" data-align="center" data-class="eve013-minwidth135">Part Number</th>
+                        <th data-sortable="true" data-field="partdescSort" data-align="center" data-class="eve013-minwidth250">Part Desc</th>
+                        <th data-sortable="true" data-field="trucknumSort" data-align="center" data-class="eve013-minwidth90">Truck No</th>
+                        <th data-sortable="true" data-field="expcodeSort" data-align="center">Expedition <br> Code</th>
+                        <th data-sortable="true" data-field="expdescSort" data-align="center">Expedition <br> Desc</th>
+                        <th data-sortable="true" data-field="shplistdateSort" data-align="center" data-class="eve013-minwidth135">Shipping List <br> Date</th>
+                        <th data-sortable="true" data-field="mdrecdateSort" data-align="center" data-class="eve013-minwidth135">MD Receive <br> Date</th>
+                        <th data-sortable="true" data-field="mdoutdateSort" data-align="center" data-class="eve013-minwidth135">MD Out <br> Date</th>
+                        <th data-sortable="true" data-field="mdslnoSort" data-align="center" data-class="eve013-minwidth135">MD SL No</th>
+                        <th data-sortable="true" data-field="mdoutdealcodeSort" data-align="center">MD Out <br> Dealer Code</th>
+                        <th data-sortable="true" data-field="mdoutdealdescSort" data-align="center">MD Out <br> Dealer Desc</th>
+                        <th data-sortable="true" data-field="dealrecdateSort" data-align="center" data-class="eve013-minwidth135">Dealer <br> Receive Date</th>
+                        <th data-sortable="true" data-field="dealreccodeSort" data-align="center">Dealer <br> Receive Code</th>
+                        <th data-sortable="true" data-field="dealrecdescSort" data-align="center">Dealer <br> Receive Code <br> Desc</th>
+                        <th data-sortable="true" data-field="bstnumSort" data-align="center">Bast <br> Number</th>
+                        <th data-sortable="true" data-field="bstdateSort" data-align="center" data-class="eve013-minwidth135">Bast <br> Date</th>
+                        <th data-sortable="true" data-field="frmnumSort" data-align="center">Frame <br> Number</th>
+                        <th data-sortable="true" data-field="engnumSort" data-align="center">Engine <br> Number</th>
+                        <th data-sortable="true" data-field="typecodeSort" data-align="center">Type Code <br>(3 Digit)</th>
+                        <th data-sortable="true" data-field="coldescSort" data-align="center">Color Desc</th>
+                        <th data-sortable="true" data-field="dealslscodeSort" data-align="center">Dealer Sales <br> Code</th>
+                        <th data-sortable="true" data-field="dealslsdescSort" data-align="center">Dealer Sales <br> Desc</th>
+                        <th data-sortable="true" data-field="invdirslsnumSort" data-align="center">Invoice <br> Direct Sales <br> Number</th>
+                        <th data-sortable="true" data-field="invdirslsdateSort" data-align="center" data-class="eve013-minwidth135">Invoice <br> Direct Sales <br> Date</th>
+                        <th data-sortable="true" data-field="phonenumSort" data-align="center">Phone <br> Number</th>
+                        <th data-sortable="true" data-field="nameSort" data-align="center">Name</th>
+                    </tr>
+                    <tr>   
+                        <th data-field="rownum" data-visible="true" data-align="right">
+                        <th data-field="srn" data-visible="true" data-align="left">
+                            <input name="srn" id="ahmsdeve013srn" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="acctype" data-visible="true" data-align="left">
+                            <input name="acctype" id="ahmsdeve013accType" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="receivedate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatterWithoutHours">
+                            <div class="input-group date">
+                                <input name="receivedate" id="ahmsdeve013receiveDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="proddate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatterWithoutHours">
+                            <div class="input-group date">
+                                <input name="proddate" id="ahmsdeve013prodDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="durationaccs" data-visible="true" data-align="right">
+                            <input name="durationaccs" id="ahmsdeve013durationAccs" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="laststatus" data-visible="true" data-align="left">
+                            <input name="laststatus" id="ahmsdeve013lastStatus" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="pkgsheetnum" data-visible="true" data-align="left">
+                            <input name="pkgsheetnum" id="ahmsdeve013pkgSheetNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="boxnum" data-visible="true" data-align="left">
+                            <input name="boxnum" id="ahmsdeve013boxNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="cartonnum" data-visible="true" data-align="left">
+                            <input name="cartonnum" id="ahmsdeve013cartonNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="shplist" data-visible="true" data-align="left">
+                            <input name="shplist" id="ahmsdeve013shpList" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="partnum" data-visible="true" data-align="left">
+                            <input name="partnum" id="ahmsdeve013partNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="partdesc" data-visible="true" data-align="left">
+                            <input name="partdesc" id="ahmsdeve013partDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="trucknum" data-visible="true" data-align="left">
+                            <input name="trucknum" id="ahmsdeve013truckNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="expcode" data-visible="true" data-align="left">
+                            <input name="expcode" id="ahmsdeve013expCode" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="expdesc" data-visible="true" data-align="left">
+                            <input name="expdesc" id="ahmsdeve013expDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="shplistdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="shplistdate" id="ahmsdeve013shpListDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="mdrecdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="mdrecdate" id="ahmsdeve013mdRecDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="mdoutdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="mdoutdate" id="ahmsdeve013mdOutDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="mdslno" data-visible="true" data-align="left">
+                            <input name="mdslno" id="ahmsdeve013mdSlNo" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="mdoutdealcode" data-visible="true" data-align="left">
+                            <input name="mdoutdealcode" id="ahmsdeve013mdOutDealCode" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="mdoutdealdesc" data-visible="true" data-align="left">
+                            <input name="mdoutdealdesc" id="ahmsdeve013mdOutDealDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="dealrecdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="dealrecdate" id="ahmsdeve013dealRecDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="dealreccode" data-visible="true" data-align="left">
+                            <input name="dealreccode" id="ahmsdeve013dealRecCode" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="dealrecdesc" data-visible="true" data-align="left">
+                            <input name="dealrecdesc" id="ahmsdeve013dealRecDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="bstnum" data-visible="true" data-align="left">
+                            <input name="bstnum" id="ahmsdeve013bstNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="bstdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="bstdate" id="ahmsdeve013bstDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="frmnum" data-visible="true" data-align="left">
+                            <input name="frmnum" id="ahmsdeve013frmNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="engnum" data-visible="true" data-align="left">
+                            <input name="engnum" id="ahmsdeve013engNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="typecode" data-visible="true" data-align="left">
+                            <input name="typecode" id="ahmsdeve013typeCode" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="coldesc" data-visible="true" data-align="left">
+                            <input name="coldesc" id="ahmsdeve013colDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="dealslscode" data-visible="true" data-align="left">
+                            <input name="dealslscode" id="ahmsdeve013dealSlsCode" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="dealslsdesc" data-visible="true" data-align="left">
+                            <input name="dealslsdesc" id="ahmsdeve013dealSlsDesc" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="invdirslsnum" data-visible="true" data-align="left">
+                            <input name="invdirslsnum" id="ahmsdeve013invDirSlsNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="invdirslsdate" data-visible="true" data-align="left" data-formatter="ahmsdeve013dateFormatter">
+                            <div class="input-group date">
+                                <input name="invdirslsdate" id="ahmsdeve013invDirSlsDate" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </th>        
+                        <th data-field="phonenum" data-visible="true" data-align="right">
+                            <input name="phonenum" id="ahmsdeve013phoneNum" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                        <th data-field="name" data-visible="true" data-align="left">
+                            <input name="name" id="ahmsdeve013name" type="text" class="form-control" onkeydown="ahmsdeve013SearchEvt(event, 1)">
+                        </th>        
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#ahmsdeve013SearchTable').on('load-success.bs.table', function (e) {
+            if ($('#ahmsdeve013SearchTable').bootstrapTable('getData').length >= 1)
+            {
+                _fw_freezeTable('ahmsdeve013SearchTable', 5, 0);
+            }
+        });
+        $('#ahmsdeve013SearchTable').on('post-body.bs.table', function (e) {
+            if ($('#ahmsdeve013SearchTable').bootstrapTable('getData').length >= 1)
+            {
+                _fw_freezeTableOnPost('ahmsdeve013SearchTable', 5, 0);
+            }
+        });
+        window.setTimeout(function () {
+            $("#ahmsdeve013SearchTable").bootstrapTable('refresh');
+        }, 1000);
+    });
+
+    function ahmsdeve013Presearch(params) {
+
+        params.search = {
+            //Filter panel
+            "SHIPLSTDATEFROM": $('#ahmsdeve013shpListDateFrom').val().trim(),
+            "SHIPLSTDATETO": $('#ahmsdeve013shpListDateTo').val().trim(),
+            "MDRECDATEFROM": $('#ahmsdeve013mdRecDateFrom').val().trim(),
+            "MDRECDATETO": $('#ahmsdeve013mdRecDateTo').val().trim(),
+            "MDOUTDATEFROM": $('#ahmsdeve013mdOutDateFrom').val().trim(),
+            "MDOUTDATETO": $('#ahmsdeve013mdOutDateTo').val().trim(),
+            "DEALRECDATEFROM": $('#ahmsdeve013dealRecDateFrom').val().trim(),
+            "DEALRECDATETO": $('#ahmsdeve013dealRecDateTo').val().trim(),
+            "BSTDATEFROM": $('#ahmsdeve013bstDateFrom').val().trim(),
+            "BSTDATETO": $('#ahmsdeve013bstDateTo').val().trim(),
+
+            //Filter table
+            "SRN": $('#ahmsdeve013srn').val().trim(),
+            "ACCTYPE": $('#ahmsdeve013accType').val().trim(),
+            "RECEIVEDATE": $('#ahmsdeve013receiveDate').val().trim(),
+            "PRODDATE": $('#ahmsdeve013prodDate').val().trim(),
+            "DURATIONACCS": $('#ahmsdeve013durationAccs').val().trim(),
+            "LASTSTATUS": $('#ahmsdeve013lastStatus').val().trim(),
+            "PKGSHEETNUM": $('#ahmsdeve013pkgSheetNum').val().trim(),
+            "BOXNUM": $('#ahmsdeve013boxNum').val().trim(),
+            "CARTONNUM": $('#ahmsdeve013cartonNum').val().trim(),
+            "SHPLIST": $('#ahmsdeve013shpList').val().trim(),
+            "PARTNUM": $('#ahmsdeve013partNum').val().trim(),
+            "PARTDESC": $('#ahmsdeve013partDesc').val().trim(),
+            "TRUCKNUM": $('#ahmsdeve013truckNum').val().trim(),
+            "EXPCODE": $('#ahmsdeve013expCode').val().trim(),
+            "EXPDESC": $('#ahmsdeve013expDesc').val().trim(),
+            "SHPLISTDATE": $('#ahmsdeve013shpListDate').val().trim(),
+            "MDRECDATE": $('#ahmsdeve013mdRecDate').val().trim(),
+            "MDOUTDATE": $('#ahmsdeve013mdOutDate').val().trim(),
+            "MDSLNO": $('#ahmsdeve013mdSlNo').val().trim(),
+            "MDOUTDEALCODE": $('#ahmsdeve013mdOutDealCode').val().trim(),
+            "MDOUTDEALDESC": $('#ahmsdeve013mdOutDealDesc').val().trim(),
+            "DEALRECDATE": $('#ahmsdeve013dealRecDate').val().trim(),
+            "DEALRECCODE": $('#ahmsdeve013dealRecCode').val().trim(),
+            "DEALRECDEST": $('#ahmsdeve013dealRecDesc').val().trim(),
+            "BSTNUM": $('#ahmsdeve013bstNum').val().trim(),
+            "BSTDATE": $('#ahmsdeve013bstDate').val().trim(),
+            "FRMNUM": $('#ahmsdeve013frmNum').val().trim(),
+            "ENGNUM": $('#ahmsdeve013engNum').val().trim(),
+            "TYPECODE": $('#ahmsdeve013typeCode').val().trim(),
+            "COLDESC": $('#ahmsdeve013colDesc').val().trim(),
+            "DEALSLSCODE": $('#ahmsdeve013dealSlsCode').val().trim(),
+            "DEALSLSDESC": $('#ahmsdeve013dealSlsDesc').val().trim(),
+            "INVDIRSLSNUM": $('#ahmsdeve013invDirSlsNum').val().trim(),
+            "INVDIRSlSDATE": $('#ahmsdeve013invDirSlsDate').val().trim(),
+            "PHONENUM": $('#ahmsdeve013phoneNum').val().trim(),
+            "NAME": $('#ahmsdeve013name').val().trim()
+        };
+
+        if (params.sort === undefined) {
+            limitUnitLoad = params.limit;
+            offsetUnitLoad = params.offset;
+
+            return {
+                limit: params.limit,
+                offset: params.offset,
+                search: params.search
+            };
+        }
+
+        return params;
+    }
+
+    function ahmsdeve013SearchEvt(event, fromDropdown) {
+        if (event.keyCode === 13 || fromDropdown === true) {
+            event.preventDefault();
+            $("#ahmsdeve013SearchTable").bootstrapTable('refresh');
+        }
+    }
+
+    function ahmsdeve013SearchBtn(obj) {
+        _fw_validation_clear(obj);
+
+        var errlist = '';
+        if ($('#ahmsdeve013shpListDateTo').val() && ahmsdeve013parseDate($('#ahmsdeve013shpListDateFrom').val()) > ahmsdeve013parseDate($('#ahmsdeve013shpListDateTo').val())) {
+            errlist += 'Shipping list date to cannot be less than date from<br>';
+            $('#ahmsdeve013shpListDateFilter').addClass('has-error has-feedback');
+        }
+        if ($('#ahmsdeve013mdRecDateTo').val() && ahmsdeve013parseDate($('#ahmsdeve013mdRecDateFrom').val()) > ahmsdeve013parseDate($('#ahmsdeve013mdRecDateTo').val())) {
+            errlist += 'MD receive date to cannot be less than date from<br>';
+            $('#ahmsdeve013mdRecDateFilter').addClass('has-error has-feedback');
+        }
+        if ($('#ahmsdeve013mdOutDateTo').val() && ahmsdeve013parseDate($('#ahmsdeve013mdOutDateFrom').val()) > ahmsdeve013parseDate($('#ahmsdeve013mdOutDateTo').val())) {
+            errlist += 'MD out date to cannot be less than date from<br>';
+            $('#ahmsdeve013mdOutDateFilter').addClass('has-error has-feedback');
+        }
+        if ($('#ahmsdeve013dealRecDateTo').val() && ahmsdeve013parseDate($('#ahmsdeve013dealRecDateFrom').val()) > ahmsdeve013parseDate($('#ahmsdeve013dealRecDateTo').val())) {
+            errlist += 'Dealer receive date to cannot be less than date from<br>';
+            $('#ahmsdeve013dealRecDateFilter').addClass('has-error has-feedback');
+        }
+        if ($('#ahmsdeve013bstDateTo').val() && ahmsdeve013parseDate($('#ahmsdeve013bstDateFrom').val()) > ahmsdeve013parseDate($('#ahmsdeve013bstDateTo').val())) {
+            errlist += 'Bast date to cannot be less than date from<br>';
+            $('#ahmsdeve013bstDateFilter').addClass('has-error has-feedback');
+        }
+
+        if (errlist !== '') {
+            _fw_setMessage(obj, 0, errlist);
+        } else {
+            $("#ahmsdeve013SearchTable").bootstrapTable('refresh');
+        }
+    }
+
+    function ahmsdeve013Reset(obj) {
+        _fw_validation_clear(obj);
+        $('#ahmsdeve013shpListDateFrom').val('');
+        $('#ahmsdeve013shpListDateTo').val('');
+        $('#ahmsdeve013mdRecDateFrom').val('');
+        $('#ahmsdeve013mdRecDateTo').val('');
+        $('#ahmsdeve013mdOutDateFrom').val('');
+        $('#ahmsdeve013mdOutDateTo').val('');
+        $('#ahmsdeve013dealRecDateFrom').val('');
+        $('#ahmsdeve013dealRecDateTo').val('');
+        $('#ahmsdeve013bstDateFrom').val('');
+        $('#ahmsdeve013bstDateTo').val('');
+        $('#ahmsdeve013srn').val('');
+        $('#ahmsdeve013accType').val('');
+        $('#ahmsdeve013receiveDate').val('');
+        $('#ahmsdeve013prodDate').val('');
+        $('#ahmsdeve013durationAccs').val('');
+        $('#ahmsdeve013lastStatus').val('');
+        $('#ahmsdeve013pkgSheetNum').val('');
+        $('#ahmsdeve013boxNum').val('');
+        $('#ahmsdeve013cartonNum').val('');
+        $('#ahmsdeve013shpList').val('');
+        $('#ahmsdeve013partNum').val('');
+        $('#ahmsdeve013partDesc').val('');
+        $('#ahmsdeve013truckNum').val('');
+        $('#ahmsdeve013expCode').val('');
+        $('#ahmsdeve013expDesc').val('');
+        $('#ahmsdeve013shpListDate').val('');
+        $('#ahmsdeve013mdRecDate').val('');
+        $('#ahmsdeve013mdOutDate').val('');
+        $('#ahmsdeve013mdSlNo').val('');
+        $('#ahmsdeve013mdOutDealCode').val('');
+        $('#ahmsdeve013mdOutDealDesc').val('');
+        $('#ahmsdeve013dealRecDate').val('');
+        $('#ahmsdeve013dealRecCode').val('');
+        $('#ahmsdeve013dealRecDesc').val('');
+        $('#ahmsdeve013bstNum').val('');
+        $('#ahmsdeve013bstDate').val('');
+        $('#ahmsdeve013frmNum').val('');
+        $('#ahmsdeve013engNum').val('');
+        $('#ahmsdeve013typeCode').val('');
+        $('#ahmsdeve013colDesc').val('');
+        $('#ahmsdeve013dealSlsCode').val('');
+        $('#ahmsdeve013dealSlsDesc').val('');
+        $('#ahmsdeve013invDirSlsNum').val('');
+        $('#ahmsdeve013invDirSlsDate').val('');
+        $('#ahmsdeve013phoneNum').val('');
+        $('#ahmsdeve013name').val('');
+
+        $("#ahmsdeve013SearchTable").bootstrapTable('refresh');
+    }
+
+    function ahmsdeve013ExportExcel(obj) {
+        _fw_validation_clear(obj);
+        let params = {
+            //Filter panel
+            "SHIPLSTDATEFROM": $('#ahmsdeve013shpListDateFrom').val().trim(),
+            "SHIPLSTDATETO": $('#ahmsdeve013shpListDateTo').val().trim(),
+            "MDRECDATEFROM": $('#ahmsdeve013mdRecDateFrom').val().trim(),
+            "MDRECDATETO": $('#ahmsdeve013mdRecDateTo').val().trim(),
+            "MDOUTDATEFROM": $('#ahmsdeve013mdOutDateFrom').val().trim(),
+            "MDOUTDATETO": $('#ahmsdeve013mdOutDateTo').val().trim(),
+            "DEALRECDATEFROM": $('#ahmsdeve013dealRecDateFrom').val().trim(),
+            "DEALRECDATETO": $('#ahmsdeve013dealRecDateTo').val().trim(),
+            "BSTDATEFROM": $('#ahmsdeve013bstDateFrom').val().trim(),
+            "BSTDATETO": $('#ahmsdeve013bstDateTo').val().trim(),
+
+            //Filter table
+            "SRN": $('#ahmsdeve013srn').val().trim(),
+            "ACCTYPE": $('#ahmsdeve013accType').val().trim(),
+            "RECEIVEDATE": $('#ahmsdeve013receiveDate').val().trim(),
+            "PRODDATE": $('#ahmsdeve013prodDate').val().trim(),
+            "DURATIONACCS": $('#ahmsdeve013durationAccs').val().trim(),
+            "LASTSTATUS": $('#ahmsdeve013lastStatus').val().trim(),
+            "PKGSHEETNUM": $('#ahmsdeve013pkgSheetNum').val().trim(),
+            "BOXNUM": $('#ahmsdeve013boxNum').val().trim(),
+            "CARTONNUM": $('#ahmsdeve013cartonNum').val().trim(),
+            "SHPLIST": $('#ahmsdeve013shpList').val().trim(),
+            "PARTNUM": $('#ahmsdeve013partNum').val().trim(),
+            "PARTDESC": $('#ahmsdeve013partDesc').val().trim(),
+            "TRUCKNUM": $('#ahmsdeve013truckNum').val().trim(),
+            "EXPCODE": $('#ahmsdeve013expCode').val().trim(),
+            "EXPDESC": $('#ahmsdeve013expDesc').val().trim(),
+            "SHPLISTDATE": $('#ahmsdeve013shpListDate').val().trim(),
+            "MDRECDATE": $('#ahmsdeve013mdRecDate').val().trim(),
+            "MDOUTDATE": $('#ahmsdeve013mdOutDate').val().trim(),
+            "MDSLNO": $('#ahmsdeve013mdSlNo').val().trim(),
+            "MDOUTDEALCODE": $('#ahmsdeve013mdOutDealCode').val().trim(),
+            "MDOUTDEALDESC": $('#ahmsdeve013mdOutDealDesc').val().trim(),
+            "DEALRECDATE": $('#ahmsdeve013dealRecDate').val().trim(),
+            "DEALRECCODE": $('#ahmsdeve013dealRecCode').val().trim(),
+            "DEALRECDEST": $('#ahmsdeve013dealRecDesc').val().trim(),
+            "BSTNUM": $('#ahmsdeve013bstNum').val().trim(),
+            "BSTDATE": $('#ahmsdeve013bstDate').val().trim(),
+            "FRMNUM": $('#ahmsdeve013frmNum').val().trim(),
+            "ENGNUM": $('#ahmsdeve013engNum').val().trim(),
+            "TYPECODE": $('#ahmsdeve013typeCode').val().trim(),
+            "COLDESC": $('#ahmsdeve013colDesc').val().trim(),
+            "DEALSLSCODE": $('#ahmsdeve013dealSlsCode').val().trim(),
+            "DEALSLSDESC": $('#ahmsdeve013dealSlsDesc').val().trim(),
+            "INVDIRSLSNUM": $('#ahmsdeve013invDirSlsNum').val().trim(),
+            "INVDIRSlSDATE": $('#ahmsdeve013invDirSlsDate').val().trim(),
+            "PHONENUM": $('#ahmsdeve013phoneNum').val().trim(),
+            "NAME": $('#ahmsdeve013name').val().trim()
+        };
+
+        var exportUrl = "/jx05/ahmsvsdeve000-pst/rest/sd/eve013/export-excel?" + $.param(params) + "&JXID=" + encodeURIComponent(getJxid());
+
+        var win = window.open(exportUrl, '_blank');
+        win.focus();
+    }
+
+    function ahmsdeve013parseDate(date) {
+        if (!date) {
+            return "";
+        }
+        var months = {
+            jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+            jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11
+        };
+        var result = date.split('-');
+        return new Date(result[2], months[result[1].toLowerCase()], result[0]);
+    }
+
+    function ahmsdeve013dateFormatter(val) {
+        if (val !== null) {
+            const date = new Date(val);
+
+            const day = date.getDate().toString().padStart(2, '0');
+            const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const month = monthNames[date.getMonth()];
+            const year = date.getFullYear();
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            const seconds = date.getSeconds().toString().padStart(2, '0');
+
+            const formattedDate = `${day}-${month}-${year} ${hours}:${minutes}:${seconds}`;
+            return formattedDate;
+        } else {
+            return '';
+        }
+    }
+
+    function ahmsdeve013dateFormatterWithoutHours(val) {
+        if (val !== null) {
+            const date = new Date(val);
+
+            const day = date.getDate().toString().padStart(2, '0');
+            const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const month = monthNames[date.getMonth()];
+            const year = date.getFullYear();
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            const seconds = date.getSeconds().toString().padStart(2, '0');
+
+            const formattedDate = `${day}-${month}-${year}`;
+            return formattedDate;
+        } else {
+            return '';
+        }
+    }
+
+    function _fw_freezeTable(tblid, left, right) {
+        var tbl = $('table#' + tblid);
+        var vmarginleft = 0;
+        var vmarginright = 0;
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('td', this).length;
+            var h_trh = $(this).outerHeight();
+            var vleft = 0;
+            var vright = 0;
+            $(this).css({height: h_trh});
+            $('td', this).each(function (i, val) {
+                if (i < left) {
+                    var w_th = $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth() >
+                            $(this).outerWidth() ? $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, left: vleft});
+                    $(this).css({'display': 'grid','align-content': 'center'});
+                    vleft = vleft + w_th;
+                    vmarginleft = vleft;
+                } else if (i >= (len - right)) {
+                    var w_th = $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth() >
+                            $(this).outerWidth() ? $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, right: vright});
+                    vright = vright + w_th;
+                    vmarginright = vright;
+                }
+            });
+            var rWidth = 0, rWc = {};
+            for (var x = len - 1; x >= len - right; x--) {
+                var cell = $('td:nth(' + x + '),th:nth(' + x + ')', this);
+                if (typeof rWc[x] == 'undefined')
+                    rWc[x] = 0;
+                cell.css({right: rWc[x]});
+                rWidth += cell.outerWidth() - 1;
+                rWc[x - 1] = rWidth;
+            }
+        });
+
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('th', this).length;
+            var h_trh = $(this).outerHeight();
+            var vleft = 0;
+            var vright = 0;
+
+            var tdw = [];
+            $('tbody tr', tbl).each(function (ix, ox) {
+                $('th:visible,td:visible', this).each(function (i, val) {
+                    if (typeof tdw[i] == 'undefined') {
+                        tdw[i] = $(this).outerWidth();
+                    }
+                });
+            });
+
+            $('thead tr', tbl).each(function (ix, ox) {
+                $('th:visible,td:visible', this).each(function (i, val) {
+                    if ($(this).outerWidth() > tdw[i]) {
+                        tdw[i] = $(this).outerWidth();
+                    }
+                });
+            });
+
+            $('th', this).each(function (i, val) {
+                if (i < left) {
+                    var w_th = $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth() >
+                            $(this).outerWidth() ? $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: tdw[i], left: vleft});
+                    vleft = vleft + w_th;
+                    vmarginleft = vleft;
+                } else if (i >= (len - right)) {
+                    var w_th = $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth() >
+                            $(this).outerWidth() ? $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, right: vright});
+                    vright = vright + w_th;
+                    vmarginright = vright;
+                }
+            });
+            var rWidth = 0, rWc = {};
+            for (var x = len - 1; x >= len - right; x--) {
+                var cell = $('td:nth(' + x + '),th:nth(' + x + ')', this);
+                if (typeof rWc[x] == 'undefined')
+                    rWc[x] = 0;
+                cell.css({right: rWc[x]});
+                rWidth += cell.outerWidth() - 1;
+                rWc[x - 1] = rWidth;
+            }
+        });
+
+        $('tr', tbl).each(function (ix, ox) {
+            $('th', this).each(function (i, val) {
+                if (i < left && ix === 0) {
+                    $(this).css({'display': 'grid','align-content': 'center'});
+                }
+            });
+        });
+
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('td,th', this).length;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol');
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol');
+                }
+            });
+        });
+
+        $('#' + tblid).parent().css({marginLeft: vmarginleft, marginRight: vmarginright});
+    }
+
+    function _fw_freezeTableOnPost(tblid, left, right) {
+        var tbl = $('table#' + tblid);
+        var hh = [];
+
+
+        var tdw = [], tdx = [], tdy = [], ridx = 0, pLeft = 0, pTop = 0, tWidth = 0;
+        $('tbody tr', tbl).each(function (ix, ox) {
+            $('th:visible,td:visible', this).each(function (i, val) {
+                if (typeof tdw[i] == 'undefined') {
+                    tdw[i] = $(this).outerWidth();
+                }
+                var pos = $(this).position(), px = pos.left, py = pos.top;
+                if ((i == 0) && (px > 0)) {
+                    pLeft = px;
+                }
+                if ((i == 0) && (py > 0)) {
+                    pTop = py;
+                }
+                if (typeof tdx[i] == 'undefined') {
+                    tdx[i] = px - pLeft;
+                }
+                if (typeof tdy[i] == 'undefined') {
+                    tdy[i] = py - pTop;
+                }
+            });
+        });
+
+        $('thead tr', tbl).each(function (ix, ox) {
+            $('th:visible,td:visible', this).each(function (i, val) {
+                if ($(this).outerWidth() > tdw[i]) {
+                    tdw[i] = $(this).outerWidth();
+                }
+            });
+        });
+
+        $('tbody tr', tbl).each(function (ix, ox) {
+            var len = $('td,th', this).length;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol');
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol');
+                }
+            });
+        });
+
+        $('tbody tr', tbl).each(function (ix, ox) {
+            $('th:visible,td:visible', this).each(function (i, val) {
+                $(this).css({width: tdw[i]});
+            });
+        });
+        $('thead tr', tbl).each(function (ix, ox) {
+            $('th:visible,td:visible', this).each(function (i, val) {
+                $(this).css({width: tdw[i]});
+            });
+        });
+
+        var fxPos = [];
+        var xw = -1, mxw = 0, ppos = $('thead tr:first th:nth(' + left + ')', tbl).position().left, rx = [], rWidth = 0, lWidth = 0, rWc = {};
+
+        $('tbody tr', tbl).each(function (ri, rval) {
+            var len = $('td,th', this).length, xw = -1;
+            var trY = $(this).position().top;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol').css({left: tdx[i] + 'px'});
+                    if ($(this).is('th'))
+                        $(this).css({top: trY[i] + 'px'});
+                    if (ri == 0)
+                        lWidth += $(this).outerWidth();
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol').css({right: '0px', top: '-=1'});
+                    $(this).css({top: trY + 'px'});
+                } else {
+                    if (ri == 0)
+                        tWidth += tdw[i] + 1;
+                }
+            });
+            var rWidth = 0, rWc = {};
+            for (var x = len - 1; x >= len - right; x--) {
+                var cell = $('td:nth(' + x + '),th:nth(' + x + ')', this);
+                if (typeof rWc[x] == 'undefined')
+                    rWc[x] = 0;
+                cell.css({right: rWc[x]});
+                rWidth += cell.outerWidth() - 1;
+                rWc[x - 1] = rWidth;
+            }
+        });
+    }
+
+    // Testing
+    function ahmsdeve013ResponseHandler(params) {
+        if (params.data.length) {
+            window.setTimeout(function () {
+                ahmsdeve013FreezeTable('ahmsdeve013SearchTable', 5, 0);
+                $('#ahmsdeve013SearchTable').on('post-body.bs.table', function (e) {
+                    ahmsdeve013FreezeTableOnPost('ahmsdeve013SearchTable', 5, 0);
+                });
+            }, 500);
+            return {
+                rows: params.data,
+                total: params.total
+            };
+        }
+
+        return {
+            rows: [],
+            total: 0
+        };
+    }
+
+    function ahmsdeve013FreezeTableOnPost(tblid, left, right) {
+        var tbl = $('table#' + tblid);
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('td,th', this).length;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol');
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol');
+                }
+            });
+        });
+        var tdw = [], tdx = [], tdy = [], ridx = 0, pLeft = 0, pTop = 0, tWidth = 0;
+        $('tr', tbl).each(function (ix, ox) {
+            var hh = $(this).outerHeight();
+            $(this).css({height: hh});
+            $('th:visible,td:visible', this).each(function (i, val) {
+                if (typeof tdw[i] == 'undefined') {
+                    tdw[i] = $(this).outerWidth();
+                }
+                var pos = $(this).position(), px = pos.left, py = pos.top;
+                if ((i == 0) && (px > 0)) {
+                    pLeft = px;
+                }
+                if ((i == 0) && (py > 0)) {
+                    pTop = py;
+                }
+                if (typeof tdx[i] == 'undefined') {
+                    tdx[i] = px - pLeft;
+                }
+                if (typeof tdy[i] == 'undefined') {
+                    tdy[i] = py - pTop;
+                }
+                $(this).css({width: tdw[i], height: hh});
+            });
+        });
+        var fxPos = [];
+        var xw = -1, mxw = 0, ppos = $('thead tr:first th:nth(' + left + ')', tbl).position().left, rx = [], rWidth = 0, lWidth = 0, rWc = {};
+        $('tr', tbl).each(function (ri, rval) {
+            var len = $('td,th', this).length, xw = -1;
+            var trY = $(this).position().top;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol').css({left: tdx[i] + 'px'});
+                    if ($(this).is('th'))
+                        $(this).css({top: trY[i] + 'px'});
+                    if (ri == 0)
+                        lWidth += $(this).outerWidth();
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol').css({right: '0px', top: '-=1'});
+                    $(this).css({top: trY + 'px'});
+                } else {
+                    if (ri == 0)
+                        tWidth += tdw[i] + 1;
+                }
+            });
+        });
+    }
+
+    function ahmsdeve013FreezeTable(tblid, left, right) {
+        var tbl = $('table#' + tblid);
+        var vmarginleft = 0;
+        var vmarginright = 0;
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('td', this).length;
+            var h_trh = $(this).outerHeight();
+            var vleft = 0;
+            var vright = 0;
+            $(this).css({height: h_trh});
+            $('td', this).each(function (i, val) {
+                if (i < left) {
+                    var w_th = $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth() >
+                            $(this).outerWidth() ? $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, left: vleft});
+                    vleft = vleft + w_th;
+                    vmarginleft = vleft;
+                } else if (i >= (len - right)) {
+                    var w_th = $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth() >
+                            $(this).outerWidth() ? $('td:nth(' + i + ')', $('#' + tblid + ' tbody tr:first')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, right: vright});
+                    vright = vright + w_th;
+                    vmarginright = vright;
+                }
+            });
+        });
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('th', this).length;
+            var h_trh = $(this).outerHeight();
+            var vleft = 0;
+            var vright = 0;
+            $(this).css({height: h_trh});
+            $('th', this).each(function (i, val) {
+                if (i < left) {
+                    var w_th = $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth() >
+                            $(this).outerWidth() ? $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, left: vleft});
+                    vleft = vleft + w_th;
+                    vmarginleft = vleft;
+                } else if (i >= (len - right)) {
+                    var w_th = $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth() >
+                            $(this).outerWidth() ? $('th:nth(' + i + ')', $('#' + tblid + ' thead tr:nth(2)')).outerWidth()
+                            : $(this).outerWidth();
+                    $(this).css({height: h_trh, width: w_th, right: vright});
+                    vright = vright + w_th;
+                    vmarginright = vright;
+                }
+            });
+        });
+        $('tr', tbl).each(function (ix, ox) {
+            var len = $('td,th', this).length;
+            $('td,th', this).each(function (i, val) {
+                if (i < left) {
+                    $(this).addClass('fixedLCol');
+                } else if (i >= (len - right)) {
+                    $(this).addClass('fixedRCol');
+                }
+            });
+        });
+        $('#' + tblid).parent().css({marginLeft: vmarginleft, marginRight: vmarginright});
+    }
+
+</script>
